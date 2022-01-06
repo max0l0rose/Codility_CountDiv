@@ -12,7 +12,7 @@ public class Main {
 
         //System.out.println(solution.solution(18, 27, 19));
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             int A = (int)(Math.random()*20);
             System.out.println(solution.solution(A, A + (int)(Math.random()*20), (int)(Math.random()*20) + 1));
         }
